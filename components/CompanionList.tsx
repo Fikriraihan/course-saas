@@ -1,14 +1,11 @@
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
-  TableFooter,
   TableHead,
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { subjectsColors } from "@/constants";
 import { cn, getSubjectColor } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
