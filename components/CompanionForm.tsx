@@ -147,10 +147,10 @@ const CompanionForm = () => {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>
-                      <SelectItem className="capitalize" value="Male">
+                      <SelectItem className="capitalize" value="male">
                         Male
                       </SelectItem>
-                      <SelectItem className="capitalize" value="Female">
+                      <SelectItem className="capitalize" value="female">
                         Female
                       </SelectItem>
                     </SelectGroup>
@@ -178,8 +178,8 @@ const CompanionForm = () => {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>
-                      <SelectItem value="Formal">Formal</SelectItem>
-                      <SelectItem value="Casual">Casual</SelectItem>
+                      <SelectItem value="formal">Formal</SelectItem>
+                      <SelectItem value="casual">Casual</SelectItem>
                     </SelectGroup>
                   </SelectContent>
                 </Select>
